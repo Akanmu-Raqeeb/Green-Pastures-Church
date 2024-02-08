@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.316);
+
+overflow: hidden;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    color: red;
+    text-decoration: none;
+}
+.logo{
+    background-image: url(./pictures/IMG_6380.PNG);
+    height: 50px;
+    width: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  span {
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .text1 {
+    font-size: 2rem;
+    margin-bottom: 0px;
+    animation: textBounceStretch 3s infinite;
+    background-color:transparent;
+    color: red;
+    position: relative;
+  }
+  
+  
+  @keyframes textBounceStretch {
+    0% {
+      color: white;
+      margin-bottom: -40px;
+    }
+    30% {
+      letter-spacing: 25px;
+      margin-bottom: -40px;
+    }
+    85% {
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+    }
+  }

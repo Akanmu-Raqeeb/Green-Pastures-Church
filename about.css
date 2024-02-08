@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.316);
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.316);
+
+overflow: hidden;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header a{
+    color: red;
+    text-decoration: none;
+}
+.logo{
+    background-image: url(./pictures/IMG_6380.PNG);
+    height: 50px;
+    width: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,236 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    background-image: url(./pictures/IMG_6380.PNG);
+    height: 50px;
+    width: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.316);
+position: fixed;
+overflow: hidden;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstsec{
+    text-align:center;
+    height: 80vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.864),rgba(0, 0, 0, 0.355)), url(./pictures/IMG_6418.JPG);
+    image-rendering: pixelated;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+}
+.secondsec{
+    margin-top:-21px;
+    padding: 0;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.316) ;
+}
+.but1{
+    background-color: lawngreen;
+    color: whitesmoke;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    outline: none;
+}
+.timesec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 900px;
+    border: solid transparent 1px;
+}
+.timesec2{
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+}
+.sec{
+    height: 30px;
+    
+    width: 180px;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.secb{
+    height: 30px;
+    
+    width: 40px;
+    color: white;
+    font-size: 26px;
+    text-align: center;display: block;
+    padding: 40px;
+    
+}
+.thirdsec{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 128, 0, 0.316) ;
+    align-items: center;
+    background-image:linear-gradient(grey , grey), url(./pictures/IMG_6419.JPG);
+    image-rendering: pixelated;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:soft-light;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mover{
+    padding: 100px;
+}
+.mover2{
+    padding-top:50px;
+}
+.foursec{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.fivesec{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cont{
+    height: 60px;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-style: italic;
+    margin: 2px;
+}
+.serinfo1{
+    height: 200px;
+    width: 300px;
+    border-radius: 2px;
+    background-image: url(./pictures/IMG_6448.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.serinfo3{
+    height: 200px;
+    width: 300px;
+    border-radius: 2px;
+    background-image: url(./pictures/IMG_6450.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.packer{
+    display: block;
+    margin: 6px;
+    height: 250px;
+    
+}
+.packer:hover{
+    border: solid 1px lawngreen;
+    box-shadow: 2px;
+}
+.serinfo2{
+    height: 200px;
+    width: 300px;
+    border-radius: 2px;
+    background-image: url(./pictures/IMG_6449.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.sertime{
+    font-size: 15px;
+    font-style: italic;
+    color: lightgreen;
+
+}
+.sixsec{
+    margin-top: 90px;
+    background-color: rgba(0, 128, 0, 0.316);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.sixwork{
+height:180px ;
+    
+    width: 250px;
+}
+.sixworkanime{
+    height:60px ;
+    font-size: 20px;
+    color: red;
+    width: 150px;
+    animation: animator 2s infinite;
+}
+@keyframes animator {
+    0%{ font-size: 20px;
+        margin-top: 6px;
+    }
+    50%{font-size: 19px;
+        margin-bottom: 6px;
+    }
+    100%{font-size: 17px;
+        margin-top: 6px;
+    }
+   
+}
+.seven{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    width:100%;
+    align-items: center;
+    color: black;
+    font-size: 19px;
+    background-color: rgba(0, 128, 0, 0.356);
+}
+a i{
+    color: black;
+}
+
+
+@media (max-width:480px) {
+    .sixsec{
+        margin-top: 550px;
+        height: 620px;
+    }
+    .secondsec{
+        height: 380px;
+    }
+}
+header a{
+    color: red;
+    text-decoration: none;
+}
