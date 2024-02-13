@@ -1,5 +1,8 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css);
 
+html{
+    scroll-behavior: smooth;
+}
 html body{
     padding: 0;
     margin: 0;
@@ -17,10 +20,13 @@ header{
     background-color: rgba(0, 128, 0, 0.316);
 position: fixed;
 overflow: hidden;
-    color: red;
+    color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+header a:hover{
+    color: red;
 }
 .firstsec{
     text-align:center;
@@ -31,7 +37,7 @@ overflow: hidden;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:soft-light;
+    background-blend-mode:luminosity;
 }
 .secondsec{
     margin-top:-21px;
@@ -221,6 +227,7 @@ a i{
 }
 
 
+
 @media (max-width:480px) {
     .sixsec{
         margin-top: 550px;
@@ -230,7 +237,35 @@ a i{
         height: 380px;
     }
 }
+@media (max-width:770px) {
+    .sixsec{
+        margin-top: 420px;
+        height: 560px;
+    }
+    .secondsec{
+        height: 380px;
+    }
+}
+@media (max-width:870px) {
+    .sixsec{
+        margin-top: 420px;
+        height: 560px;
+    }
+    .secondsec{
+        height: 380px;
+    }
+}
 header a{
-    color: red;
+    color:white;
     text-decoration: none;
+}
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition:all 2s ease-in ;
+}
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
 }

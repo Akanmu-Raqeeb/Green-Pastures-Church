@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Green Pastures</title>
 </head>
 <style>
@@ -36,7 +33,7 @@ overflow: hidden;
 }
 
     header a{
-    color: red;
+    color: white;
     text-decoration: none;
 }
 h1{
@@ -57,9 +54,9 @@ span{
                 <a href="#contact"> <div >Contact</div></a>
                     <a href="donation.html"> <div >Donation</div></a>
     </header>
-    <u> <h1 class="animate__animated animate__lightSpeedInRight " >Redeemed: Embracing God's Grace and Moving Forward</h1></u>
+    <u> <h1 data-aos="fade-up-left" >Redeemed: Embracing God's Grace and Moving Forward</h1></u>
 
-    <p>
+    <p data-aos="fade-up-left">
 
 We all have made mistakes in our lives, some big and some small. It's important to acknowledge and take responsibility for those mistakes. However, we must remember that our mistakes do not define us as individuals.
  Our identity is found in Christ, who has washed away our sins and made us new. While our past mistakes do not define us, they can still have consequences that affect our future. 
@@ -76,4 +73,9 @@ We all have made mistakes in our lives, some big and some small. It's important 
 
     </p>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
 </html>
