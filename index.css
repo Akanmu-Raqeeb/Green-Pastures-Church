@@ -196,7 +196,7 @@ height:180px ;
 .sixworkanime{
     height:60px ;
     font-size: 20px;
-    color: red;
+    color:black;
     width: 150px;
     animation: animator 2s infinite;
 }
@@ -255,6 +255,13 @@ a i{
         height: 380px;
     }
 }
+@media (max-width:621px) {
+    .sixsec{
+        margin-top: 600px;
+        height: 560px;
+    }
+   
+}
 header a{
     color:white;
     text-decoration: none;
@@ -268,4 +275,12 @@ header a{
 .reveal.active{
     transform: translateY(0px);
     opacity: 1;
+}
+.follow{
+    font-style: italic;
+    text-align: left;
+    height: 30px;
+    width: 100%;
+    background-color: rgba(0, 128, 0, 0.356) ;
+    color: black;
 }
